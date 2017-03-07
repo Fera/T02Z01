@@ -4,17 +4,17 @@ if ("repeat" in String.prototype) {
 
 	 String.prototype.repeatt = function(count) { 
 
-	 		var text = "";
+ 		var text = "";
 
-	 		for (i=0; i < count; i++) {
+ 		for (i=0; i < count; i++) {
 
-	 			text += this;
-	 		}
+ 			text += this;
+ 		}
 
-	 		return text;
-		
+ 		return text;		
 	};
+
+	console.log("przykład ".repeatt(3));
 		
-	document.getElementById("output").innerHTML = "hej ".repeatt(5);
-	
+	// document.getElementById("output").innerHTML = "hej ".repeatt(5);	
 }
